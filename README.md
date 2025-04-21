@@ -25,6 +25,8 @@ Then, in a browser, open `localhost:5173`. You should *not* open index.html in a
 
 When the user sends a message, the agent should respond **in real-time**. This can be done with a `POST` request to `https://cs571api.cs.wisc.edu/rest/s25/hw11/completions-stream` appropriately handling the stream of responses. Please see `API_DOCUMENTATION.md` for more details.
 
+![An example conversation between user and assistant](_figures/step1.png)
+
 ### 2. Implement Personas
 
 Conversations should make use of the persona selected from the dropdown. This includes...
@@ -34,15 +36,21 @@ Conversations should make use of the persona selected from the dropdown. This in
 
 When the persona is changed via the dropdown, the previous conversation should be cleared and a new conversation should begin.
 
+![An example usage of a persona](_figures/step2.png)
+
 ### 3. Add Persona
 
 This is a fun, but required, step. Add 1 more persona to the list of `PERSONAS`. The specifics of this is up to you, but keep it appropriate!
+
+![An example additional persona](_figures/step3.png)
 
 ### 4. Use `localStorage`
 
 The conversation history and selected persona should be persisted to `localStorage`. That is, whenever a user exits and returns to a page, the conversation and selected persona remains. The conversation should only reset whenever a user starts a new chat or the `localStorage` is cleared (e.g. deleting the browser history).
 
 **Hint:** In WebDev 5 we talked about creating a custom hook called `useStorage`; I'd recommend (but not require) doing this!
+
+![An example of localStorage key/value pairs](_figures/step4.png)
 
 ### Submission Details
 
