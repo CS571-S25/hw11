@@ -17,7 +17,7 @@ Then, in a browser, open `localhost:5173`. You should *not* open index.html in a
 
 ## Special Notes
  - You do *not* need to handle `413` (context too long) or `429` (too many requests) errors from the API.
- - As a general note, the files and code given in the starter code is a suggestion. You are welcome to move, add, or remove snippets of code as you see fit.
+ - As a general note, the files and code given in the starter code are a suggestion. You are welcome to move, add, or remove snippets of code as you see fit.
 
 ## BadgerChatGPT
 
